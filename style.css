@@ -6,7 +6,7 @@ body {
 }
 
 #header{
-	color: #91C8D4;
+	margin-top: 50px;
 }
 
 div, h1, h2, p {
@@ -42,12 +42,51 @@ p{
 	color: #91C8D4;
 }
 
+.highlight2{
+	color: #C8D491
+}
+
 .divider{
 	border: 1px dashed #D0D0D0;
 }
 
+.social-media-icons i {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 1.2em;
+	color: #999;
+	transition: 0.8s;
+}
+
+.social-media-icons a:first-child:hover i {
+	color: #91C8D4;
+}
+
+.social-media-icons a:nth-child(2):hover i {
+	color: #91C8D4;
+}
+
+.social-media-icons a:nth-child(3):hover i {
+	color: #91C8D4;
+}
+
+.social-media-icons a:nth-child(4):hover i {
+	color: #91C8D4;
+}
+.social-media-icons a:nth-child(5):hover i {
+	color: #91C8D4;
+}
+
+.social-media-icons a {
+  margin-right: 30px;
+}
+
+
+
+
+
 @media (min-width: 1200px) {
-    .container{
-        max-width: 770px;
-    }
+	.container{
+		max-width: 700px;
+	}
 }
